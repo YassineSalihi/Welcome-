@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: arapey;
+}
+
+.hero-card{
+    background-image: url(the-beauty-of-marrakech.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #C4AF9A;
+    text-shadow: 0 0 2px black; 
+}
+
+
+
+#hero-card-text1 {
+    background-color: #595F72;
+}
+
+#hero-card-text2 {
+    background-color: #81889C;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#81889C, #5AD2F4);
+    padding: 10px;
+}
+
+/*.activity .Majorelle, .rooftops, .jamae, {
+    padding: 15px;
+}*/
+
+.activity-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: none;
+}
+
+.activity-text h3 {
+    font-weight: bolder;
+}
+
+.activity-text p{
+    font-size: 18px;
+}
+
+.me-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    background-image: linear-gradient(#5AD2F4, #81889C);
+    border-bottom: 8px solid #C4AF9A;
+}
+
+.me-card img {
+    height: 350px;
+}
+
+.me-card-text-intro {
+    font-style: italic;
+    padding-left: 18px;
+}
